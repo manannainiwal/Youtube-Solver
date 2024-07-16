@@ -14,7 +14,7 @@
 	<img src="https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=flat&logo=Streamlit&logoColor=white" alt="Streamlit">
 	<img src="https://img.shields.io/badge/OpenAI-412991.svg?style=flat&logo=OpenAI&logoColor=white" alt="OpenAI">
 	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
-	<img src="https://img.shields.io/badge/Docker-2496ED.svg?style=flat&logo=Render&logoColor=white" alt="Render">
+	<img src="https://img.shields.io/badge/Render-2496ED.svg?style=flat&logo=Render&logoColor=white" alt="Render">
 </p>
 <hr>
 
@@ -60,7 +60,6 @@ The youtube_doubt_solver project is a platform that leverages OpenAI models to a
 
 ```sh
 └── youtube_doubt_solver/
-    ├── Dockerfile
     ├── README.md
     ├── backend.py
     ├── frontend.py
@@ -74,8 +73,7 @@ The youtube_doubt_solver project is a platform that leverages OpenAI models to a
 <details closed><summary>.</summary>
 
 | File                                                                                                   | Summary                                                                                                                                                                                                                                                         |
-| ---                                                                                                    | ---                                                                                                                                                                                                                                                             |
-| [Dockerfile](https://github.com/manannainiwal/youtube_doubt_solver/blob/master/Dockerfile)             | Summary:** Dockerfile orchestrates setup for a YouTube doubt-solving platform by handling Python dependencies, serving frontend via Streamlit on a specified port in the repository.                                                                            |
+| ---                                                                                                    | ---                                                                                                                                                                                                                                                                                                                                      |
 | [frontend.py](https://github.com/manannainiwal/youtube_doubt_solver/blob/master/frontend.py)           | The code in frontend.py orchestrates user interface interaction for the Youtube Doubt Solver project. It connects with the backend to process user queries and display results interactively.                                                                   |
 | [backend.py](https://github.com/manannainiwal/youtube_doubt_solver/blob/master/backend.py)             | Role:** `backend.py` orchestrates OpenAI models for question answering on YouTube videos. Integrates document loading, text splitting, and similarity search functionalities for efficient processing. Enhances user experience by generating accurate answers. |
 | [requirements.txt](https://github.com/manannainiwal/youtube_doubt_solver/blob/master/requirements.txt) | Code Summary:****File:** `requirements.txt`**Role:** Specifies dependencies for YouTube Doubt Solver **Features:** Includes openai, langchain, streamlit, faiss-cpu, and more.                                                                                  |
@@ -90,7 +88,7 @@ The youtube_doubt_solver project is a platform that leverages OpenAI models to a
 
 Ensure you have the following dependencies installed on your system:
 
-* **Python**: `version x.y.z`
+* **Python**: `version 3.9`
 
 ###  Installation
 

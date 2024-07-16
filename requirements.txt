@@ -6,3 +6,4 @@ faiss-cpu
 langchain-core
 python-dotenv
 langchain_openai
+youtube_transcript_api
